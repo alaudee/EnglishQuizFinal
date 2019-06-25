@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fillViewport="true"
     tools:context=".PerguntaNoveActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
     <TextView
@@ -13,44 +19,62 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:text="Pergunta 9"
+        android:text="@string/questEN09"
         android:textColor="#000"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:paddingLeft="20dp"/>
 
     <Button
-        android:onClick="opcaoUmQuestaoNove"
         android:id="@+id/btnOp1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Opção 1" />
+        android:background="@drawable/btn_borda"
+        android:onClick="opcaoUmQuestaoNove"
+        android:padding="15dp"
+        android:text="@string/quest09ENOptionB"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
 
     <Button
-        android:onClick="opcaoDoisQuestaoNove"
         android:id="@+id/btnOp2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 2" />
+        android:background="@drawable/btn_borda"
+        android:onClick="opcaoDoisQuestaoNove"
+        android:padding="15dp"
+        android:text="@string/quest09ENOptionA"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
 
     <Button
-        android:onClick="opcaoTresQuestaoNove"
         android:id="@+id/btnOp3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 3" />
+        android:background="@drawable/btn_borda"
+        android:onClick="opcaoTresQuestaoNove"
+        android:padding="15dp"
+        android:text="@string/quest09ENOptionC"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
 
     <Button
-        android:onClick="opcaoQuatroQuestaoNove"
         android:id="@+id/btnOp4"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 4" />
+        android:background="@drawable/btn_borda"
+        android:onClick="opcaoQuatroQuestaoNove"
+        android:padding="15dp"
+        android:text="@string/quest09ENOptionD"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

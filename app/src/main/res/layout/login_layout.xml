@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000"
-        android:text="Digite seu nome"
+        android:text="Digite seu nome:"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:textSize="25dp"
@@ -31,6 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:background="@drawable/edt_border"
+        android:padding="10dp"
         />
 
     <Button
@@ -38,8 +40,12 @@
         android:layout_height="wrap_content"
         android:text="Jogar"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:onClick="comecarJogo"
+        android:background="@drawable/btn_borda"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:padding="15dp"
         />
 
 </LinearLayout>

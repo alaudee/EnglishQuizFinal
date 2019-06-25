@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fillViewport="true"
     tools:context=".PerguntaOitoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
     <TextView
@@ -13,9 +19,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:text="Pergunta 8"
+        android:text="@string/questEN08"
         android:textColor="#000"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:paddingLeft="20dp"/>
 
     <Button
         android:onClick="opcaoUmQuestaoOito"
@@ -24,7 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Opção 1" />
+        android:text="@string/quest08ENOptionA" android:background="@drawable/btn_borda"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:padding="15dp"/>
 
     <Button
         android:onClick="opcaoDoisQuestaoOito"
@@ -33,7 +43,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 2" />
+        android:text="@string/quest08ENOptionB" android:background="@drawable/btn_borda"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:padding="15dp"/>
 
     <Button
         android:onClick="opcaoTresQuestaoOito"
@@ -42,7 +55,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 3" />
+        android:text="@string/quest08ENOptionD" android:background="@drawable/btn_borda"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:padding="15dp"/>
 
     <Button
         android:onClick="opcaoQuatroQuestaoOito"
@@ -51,6 +67,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Opção 4" />
+        android:text="@string/quest08ENOptionC" android:background="@drawable/btn_borda"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:padding="15dp"/>
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

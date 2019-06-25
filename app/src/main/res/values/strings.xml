@@ -1,3 +1,145 @@
 <resources>
-    <string name="app_name">QuizIngles</string>
+    <string name="app_name">English Quiz</string>
+    <!--Numbers of the questions-->
+    <string name="questNum01">01</string>
+    <string name="questNum02">02</string>
+    <string name="questNum03">03</string>
+    <string name="questNum04">04</string>
+    <string name="questNum05">05</string>
+    <string name="questNum06">06</string>
+    <string name="questNum07">07</string>
+    <string name="questNum08">08</string>
+    <string name="questNum09">09</string>
+    <string name="questNum10">10</string>
+    <!--Questions in Portuguese and English-->
+    <string name="questEN01">What´s it HTML?</string>
+    <string name="questEN02">What is the name of the tool that was created on 1989, that has a lot of documents like: videos, photos, sounds and hypertext that are all translated through de browser?</string>
+    <string name="questEN03">What is it the Internet of Things?</string>
+    <string name="questEN04">Choose the alternative that corresponds to the protocol that is used between the communication of two devices</string>
+    <string name="questEN05">On Github what is the line-code used to add a comment on the repository?</string>
+    <string name="questEN06">On object-oriented paradigm, a Class is used for do what?</string>
+    <string name="questEN07">What´s Material Design?</string>
+    <string name="questEN08">Which one of these languages are not object-oriented?</string>
+    <string name="questEN09">In Data Base, there are three types of modeling to create a DataBase in fact, What are they?</string>
+    <string name="questEN10">In networks who represents the mask /24?</string>
+    <string name="questPT01">O que é HTML?</string>
+    <string name="questPT02">Qual é o nome da ferramenta criada em 1989, que possue documentos como vídeos, fotos, sons e hipertextos que são traduzidos através do navegador?</string>
+    <string name="questPT03">O que é a Internet das Coisas?</string>
+    <string name="questPT04">Escolha a alternativa que corresponde ao protocolo usado na comunicação entre dois dispositivos.</string>
+    <string name="questPT05">No Github qual é o código usado para adicionar um comentário no repositório?</string>
+    <string name="questPT06">No Paradigma de Orientação a Objeto, uma Classe é utilizada com qual objetivo?</string>
+    <string name="questPT07">O que é Material Design?</string>
+    <string name="questPT08">Qual destas linguagens não é orientada a objeto?</string>
+    <string name="questPT09">Em banco de dados, a existem três tipos de modelagem para a criação de fato de um banco, quais são elas?</string>
+    <string name="questPT10">Em redes qual é a mascará que representa /24?</string>
+
+    <!--Options in English-->
+
+    <string name="quest01ENOptionA">- A marcation´s language used for program web pages</string>
+    <string name="quest01ENOptionB">- A framework used to implement styles on CSS´s archives</string>
+    <string name="quest01ENOptionC">- A tool to improve the user´s experience</string>
+    <string name="quest01ENOptionD">- A type of file extension</string>
+
+    <string name="quest02ENOptionA">- Mozilla Firefox</string>
+    <string name="quest02ENOptionB">- Javascript</string>
+    <string name="quest02ENOptionC">- Data Base</string>
+    <string name="quest02ENOptionD">- World Wide Web</string>
+
+    <string name="quest03ENOptionA">- A name of enterprise network</string>
+    <string name="quest03ENOptionB">- A methodology created to show the diferent levels of the internet</string>
+    <string name="quest03ENOptionC">- The method how the objects are connected and communicating themselves and with the user</string>
+    <string name="quest03ENOptionD">- The way that the virtual objects are connected and communicating themselves</string>
+
+    <string name="quest04ENOptionA">- HTTP</string>
+    <string name="quest04ENOptionB">- TCP/IP</string>
+    <string name="quest04ENOptionC">- SMTP</string>
+    <string name="quest04ENOptionD">- DNS</string>
+
+    <string name="quest05ENOptionA">- git checkout -b</string>
+    <string name="quest05ENOptionB">- git commit -m</string>
+    <string name="quest05ENOptionC">- git log</string>
+    <string name="quest05ENOptionD">- git push origin master</string>
+
+
+    <string name="quest06ENOptionA">- Define a type of data in a object-oriented paradigm</string>
+    <string name="quest06ENOptionB">- Establish a division on HTML code</string>
+    <string name="quest06ENOptionC">- A gambiarra used to make more easier to implement a library</string>
+    <string name="quest06ENOptionD">- Create a connection with the DataBase on the Cloud</string>
+
+    <string name="quest07ENOptionA">- A tech enterprise focused on the cancer treatment</string>
+    <string name="quest07ENOptionB">- A group of rules and standards created for use on apps and websites</string>
+    <string name="quest07ENOptionC">- A method to categorize documents in an enterprise</string>
+    <string name="quest07ENOptionD">- A tool disponibilized by Google</string>
+
+    <string name="quest08ENOptionA">- Java</string>
+    <string name="quest08ENOptionB">- C#</string>
+    <string name="quest08ENOptionC">- Pascal</string>
+    <string name="quest08ENOptionD">- Python</string>
+
+    <string name="quest09ENOptionA">- Conceptual, Logic and Fisic</string>
+    <string name="quest09ENOptionB">- Parameters, Links and Libraries</string>
+    <string name="quest09ENOptionC">- Intention, Aceleration and Communication</string>
+    <string name="quest09ENOptionD">- Beauty, System and Volatility</string>
+
+    <string name="quest10ENOptionA">- 244.244.244.0</string>
+    <string name="quest10ENOptionB">- 255.255.255.0</string>
+    <string name="quest10ENOptionC">- 233.233.233.0</string>
+    <string name="quest10ENOptionD">- 771.771.771.0</string>
+
+    <!--Options in Portuguese-->
+
+    <string name="quest01PTOptionA">- Uma linguagem de marcação usada para a programação de páginas web</string>
+    <string name="quest01PTOptionB">- Um framework usado para implementar estilos no CSS do arquivo</string>
+    <string name="quest01PTOptionC">- Uma técnica para melhorar a experiência do usuário</string>
+    <string name="quest01PTOptionD">- Um tipo de extensão de arquivo</string>
+
+    <string name="quest02PTOptionC">- Banco de Dados</string>
+
+    <string name="quest03PTOptionA">- O nome de uma rede empresarial</string>
+    <string name="quest03PTOptionB">- Uma metodologia criada para mostrar diferentes níveis de internet</string>
+    <string name="quest03PTOptionC">- O modo como os objetos físicos estão conectados e se comunicando entre si e com o usuário</string>
+    <string name="quest03PTOptionD">- A maneira pela qual os objetos virtuais estão conectados e conversando entre si</string>
+
+    <string name="quest06PTOptionA">- Definir um tipo de dado em uma linguagem orientada a objeto</string>
+    <string name="quest06PTOptionB">- Estabelecer uma divisão no código HTML</string>
+    <string name="quest06PTOptionC">- Uma gambiarra usada para facilitar a implemtentação de uma biblioteca</string>
+    <string name="quest06PTOptionD">- Criar uma conexão direta com o banco de dados na nuvem</string>
+
+    <string name="quest07PTOptionA">- Uma empresa de tecnologia focada no tratamento do câncer</string>
+    <string name="quest07PTOptionB">- Um conjunto de regras e padrões criados para uso em aplicativos e sites web</string>
+    <string name="quest07PTOptionC">- Uma forma de categorizar documentos em uma empresa</string>
+    <string name="quest07PTOptionD">- Um tipo de ferramenta oferecida pelo Google</string>
+
+    <string name="quest09PTOptionA">- Conceitual, Lógica e Física</string>
+    <string name="quest09PTOptionB">- Parâmetragem, Links e Biblioteca</string>
+    <string name="quest09PTOptionC">- Intenção, Aceleração e Comunicação</string>
+    <string name="quest09PTOptionD">- Beleza, Sistema e Volatilidade</string>
+
+    <!--Answers in Portuguese and English-->
+
+    <string name="quest01ENAnswer"></string>
+    <string name="quest02ENAnswer"></string>
+    <string name="quest03ENAnswer"></string>
+    <string name="quest04ENAnswer"></string>
+    <string name="quest05ENAnswer"></string>
+
+    <string name="quest06ENAnswer"></string>
+    <string name="quest07ENAnswer"></string>
+    <string name="quest08ENAnswer"></string>
+    <string name="quest09ENAnswer"></string>
+    <string name="quest10ENAnswer"></string>
+
+
+    <string name="quest01PTAnswer"></string>
+    <string name="quest02PTAnswer"></string>
+    <string name="quest03PTAnswer"></string>
+    <string name="quest04PTAnswer"></string>
+    <string name="quest05PTAnswer"></string>
+
+    <string name="quest06PTAnswer"></string>
+    <string name="quest07PTAnswer"></string>
+    <string name="quest08PTAnswer"></string>
+    <string name="quest09PTAnswer"></string>
+    <string name="quest10PTAnswer"></string>
+
 </resources>
