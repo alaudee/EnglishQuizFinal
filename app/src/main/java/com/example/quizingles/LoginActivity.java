@@ -3,6 +3,7 @@ package com.example.quizingles;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 
@@ -12,11 +13,16 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_layout);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.idToolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Quiz English");
     }
 
     public void comecarJogo(View view) {
 
-        EditText editText = (EditText)findViewById(R.id.edtNomeUsuario);
+        EditText editText = (EditText) findViewById(R.id.edtNomeUsuario);
         String nome = editText.getText().toString();
 
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);

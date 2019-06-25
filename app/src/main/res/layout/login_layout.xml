@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/idToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

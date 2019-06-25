@@ -3,6 +3,7 @@ package com.example.quizingles;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,15 +15,19 @@ public class PerguntaDoisActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pergunta_dois_layout);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.twopx);
+
         Intent intentRecebe = getIntent();
 
         Bundle infos = intentRecebe.getExtras();
-
         int result = infos.getInt("chave_pontos");
 
-        if (infos != null){
-            Toast.makeText(PerguntaDoisActivity.this, "Seus acertos = "+result, Toast.LENGTH_SHORT).show();
-        }
+        Bundle infoNome = intentRecebe.getExtras();
+        String usuario = infoNome.getString("chave_nome");
+
+
     }
 
 
@@ -30,16 +35,19 @@ public class PerguntaDoisActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         Bundle infos = intent.getExtras();
-
         int scoreTwo = infos.getInt("chave_pontos");
 
         scoreTwo = scoreTwo + 0;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
         Bundle novoInfos = new Bundle();
 
+        Bundle infoNome = intent.getExtras();
+        String usuario = infoNome.getString("chave_nome");
+
         novoInfos.putInt("chave_pontos_dois", scoreTwo);
 
         intentEnvia.putExtras(novoInfos);
+        intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
     }
@@ -55,9 +63,13 @@ public class PerguntaDoisActivity extends AppCompatActivity {
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
         Bundle novoInfos = new Bundle();
 
+        Bundle infoNome = intent.getExtras();
+        String usuario = infoNome.getString("chave_nome");
+
         novoInfos.putInt("chave_pontos_dois", scoreTwo);
 
         intentEnvia.putExtras(novoInfos);
+        intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
     }
@@ -75,7 +87,11 @@ public class PerguntaDoisActivity extends AppCompatActivity {
 
         novoInfos.putInt("chave_pontos_dois", scoreTwo);
 
+        Bundle infoNome = intent.getExtras();
+        String usuario = infoNome.getString("chave_nome");
+
         intentEnvia.putExtras(novoInfos);
+        intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
     }
@@ -93,7 +109,11 @@ public class PerguntaDoisActivity extends AppCompatActivity {
 
         novoInfos.putInt("chave_pontos_dois", scoreTwo);
 
+        Bundle infoNome = intent.getExtras();
+        String usuario = infoNome.getString("chave_nome");
+
         intentEnvia.putExtras(novoInfos);
+        intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
     }
