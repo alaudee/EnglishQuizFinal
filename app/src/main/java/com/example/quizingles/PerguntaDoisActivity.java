@@ -3,6 +3,7 @@ package com.example.quizingles;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,10 +18,83 @@ public class PerguntaDoisActivity extends AppCompatActivity {
 
         Bundle infos = intentRecebe.getExtras();
 
-        if (infos != null){
-            int resultado = infos.getInt("chave_pontos");
+        int result = infos.getInt("chave_pontos");
 
-            Toast.makeText(PerguntaDoisActivity.this, "Seus acertos = "+resultado, Toast.LENGTH_SHORT).show();
+        if (infos != null){
+            Toast.makeText(PerguntaDoisActivity.this, "Seus acertos = "+result, Toast.LENGTH_SHORT).show();
         }
+    }
+
+
+    public void opcaoUmQuestaoDois(View view) {
+        Intent intent = getIntent();
+
+        Bundle infos = intent.getExtras();
+
+        int scoreTwo = infos.getInt("chave_pontos");
+
+        scoreTwo = scoreTwo + 0;
+        Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
+        Bundle novoInfos = new Bundle();
+
+        novoInfos.putInt("chave_pontos_dois", scoreTwo);
+
+        intentEnvia.putExtras(novoInfos);
+
+        startActivity(intentEnvia);
+    }
+
+    public void opcaoDoisQuestaoDois(View view) {
+        Intent intent = getIntent();
+
+        Bundle infos = intent.getExtras();
+
+        int scoreTwo = infos.getInt("chave_pontos");
+
+        scoreTwo = scoreTwo + 0;
+        Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
+        Bundle novoInfos = new Bundle();
+
+        novoInfos.putInt("chave_pontos_dois", scoreTwo);
+
+        intentEnvia.putExtras(novoInfos);
+
+        startActivity(intentEnvia);
+    }
+
+    public void opcaoTresQuestaoDois(View view) {
+        Intent intent = getIntent();
+
+        Bundle infos = intent.getExtras();
+
+        int scoreTwo = infos.getInt("chave_pontos");
+
+        scoreTwo++;
+        Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
+        Bundle novoInfos = new Bundle();
+
+        novoInfos.putInt("chave_pontos_dois", scoreTwo);
+
+        intentEnvia.putExtras(novoInfos);
+
+        startActivity(intentEnvia);
+    }
+
+    public void opcaoQuatroQuestaoDois(View view) {
+        Intent intent = getIntent();
+
+        Bundle infos = intent.getExtras();
+
+        int scoreTwo = infos.getInt("chave_pontos");
+
+        scoreTwo = scoreTwo + 0;
+        Intent intentEnvia = new Intent(getApplicationContext(), PerguntaTresActivity.class);
+        Bundle novoInfos = new Bundle();
+
+        novoInfos.putInt("chave_pontos_dois", scoreTwo);
+
+        intentEnvia.putExtras(novoInfos);
+
+        startActivity(intentEnvia);
     }
 }

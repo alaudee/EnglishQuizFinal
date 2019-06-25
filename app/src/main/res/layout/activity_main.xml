@@ -17,7 +17,7 @@
         android:textSize="30dp" />
 
     <Button
-        android:onClick="abrirOp1"
+        android:onClick="opcaoUmQuestaoUm"
         android:id="@+id/btnOp1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:text="Opção 1" />
 
     <Button
-        android:onClick="abrirOp2"
+        android:onClick="opcaoDoisQuestaoUm"
         android:id="@+id/btnOp2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:text="Opção 2" />
 
     <Button
-        android:onClick="abrirOp3"
+        android:onClick="opcaoTresQuestaoUm"
         android:id="@+id/btnOp3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:text="Opção 3" />
 
     <Button
-        android:onClick="abrirOp4"
+        android:onClick="opcaoQuatroQuestaoUm"
         android:id="@+id/btnOp4"
         android:layout_width="300dp"
         android:layout_height="wrap_content"

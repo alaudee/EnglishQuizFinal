@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void abrirOp1(View view) {
+    public void opcaoUmQuestaoUm(View view) {
         scoreOne++;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaDoisActivity.class);
         Bundle infos = new Bundle();
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentEnvia);
     }
 
-    public void abrirOp2(View view) {
+    public void opcaoDoisQuestaoUm(View view) {
         scoreOne = scoreOne + 0;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaDoisActivity.class);
         Bundle bundle = new Bundle();
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentEnvia);
     }
 
-    public void abrirOp3(View view) {
+    public void opcaoTresQuestaoUm(View view) {
         scoreOne = scoreOne + 0;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaDoisActivity.class);
         Bundle bundle = new Bundle();
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentEnvia);
     }
 
-    public void abrirOp4(View view) {
+    public void opcaoQuatroQuestaoUm(View view) {
         scoreOne = scoreOne + 0;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaDoisActivity.class);
         Bundle bundle = new Bundle();
