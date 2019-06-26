@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         scoreOne++;
         Intent intentEnvia = new Intent(getApplicationContext(), PerguntaDoisActivity.class);
         Bundle infos = new Bundle();
-
         infos.putInt("chave_pontos", scoreOne);
 
         Bundle infoNome = intent.getExtras();
