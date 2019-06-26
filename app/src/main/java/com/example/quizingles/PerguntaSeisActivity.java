@@ -48,6 +48,8 @@ public class PerguntaSeisActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaSeisActivity.this, "NOT NOW", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoSeis(View view) {
@@ -70,6 +72,8 @@ public class PerguntaSeisActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaSeisActivity.this, "TOO BAD", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoSeis(View view) {
@@ -92,6 +96,8 @@ public class PerguntaSeisActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaSeisActivity.this, "CORRECT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoSeis(View view) {
@@ -114,5 +120,7 @@ public class PerguntaSeisActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaSeisActivity.this, "NO", Toast.LENGTH_SHORT).show();
     }
 }

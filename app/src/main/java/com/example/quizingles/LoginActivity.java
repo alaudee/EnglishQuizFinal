@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.idToolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("Quiz English");
+        getSupportActionBar().setTitle("English Quiz ");
     }
 
     public void comecarJogo(View view) {

@@ -48,6 +48,8 @@ public class PerguntaNoveActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaNoveActivity.this, "TOO BAD", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoNove(View view){
@@ -70,6 +72,8 @@ public class PerguntaNoveActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaNoveActivity.this, "GOT IT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoNove(View view){
@@ -92,6 +96,8 @@ public class PerguntaNoveActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaNoveActivity.this, "WRONG", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoNove(View view){
@@ -114,5 +120,7 @@ public class PerguntaNoveActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaNoveActivity.this, "YOU FAILED", Toast.LENGTH_SHORT).show();
     }
 }

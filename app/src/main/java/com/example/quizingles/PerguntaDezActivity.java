@@ -47,6 +47,8 @@ public class PerguntaDezActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaDezActivity.this, "CORRECT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoDez(View view) {
@@ -69,6 +71,8 @@ public class PerguntaDezActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaDezActivity.this, "WRONG", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoDez(View view) {
@@ -91,6 +95,8 @@ public class PerguntaDezActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaDezActivity.this, "WRONG", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoDez(View view) {
@@ -113,5 +119,7 @@ public class PerguntaDezActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaDezActivity.this, "WRONG", Toast.LENGTH_SHORT).show();
     }
 }

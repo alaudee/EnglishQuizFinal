@@ -47,6 +47,8 @@ public class PerguntaTresActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaTresActivity.this, "NOT AT THIS TIME", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoTres(View view) {
@@ -69,6 +71,8 @@ public class PerguntaTresActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaTresActivity.this, "NO...", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoTres(View view) {
@@ -91,6 +95,8 @@ public class PerguntaTresActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaTresActivity.this, "YOU-RE WRONG", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoTres(View view) {
@@ -113,5 +119,7 @@ public class PerguntaTresActivity extends AppCompatActivity {
         intentEnvia.putExtras(infos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaTresActivity.this, "CORRECT", Toast.LENGTH_SHORT).show();
     }
 }

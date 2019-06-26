@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(MainActivity.this, "YOU GOT IT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoUm(View view) {
@@ -59,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(MainActivity.this, "INCORRECT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoUm(View view) {
@@ -77,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
         intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(MainActivity.this, "YOU-RE WRONG", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoUm(View view) {
@@ -95,5 +102,7 @@ public class MainActivity extends AppCompatActivity {
         intentEnvia.putExtras(infoNome);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(MainActivity.this, "WRONG", Toast.LENGTH_SHORT).show();
     }
 }

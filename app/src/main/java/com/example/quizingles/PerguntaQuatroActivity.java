@@ -49,6 +49,8 @@ public class PerguntaQuatroActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaQuatroActivity.this, "INCORRECT", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoDoisQuestaoQuatro(View view) {
@@ -71,6 +73,8 @@ public class PerguntaQuatroActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaQuatroActivity.this, "YOU ROCK", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoTresQuestaoQuatro(View view) {
@@ -93,6 +97,8 @@ public class PerguntaQuatroActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaQuatroActivity.this, "NO...", Toast.LENGTH_SHORT).show();
     }
 
     public void opcaoQuatroQuestaoQuatro(View view) {
@@ -115,5 +121,7 @@ public class PerguntaQuatroActivity extends AppCompatActivity {
         intentEnvia.putExtras(novoInfos);
 
         startActivity(intentEnvia);
+
+        Toast.makeText(PerguntaQuatroActivity.this, "YOU´RE WRONG", Toast.LENGTH_SHORT).show();
     }
 }
