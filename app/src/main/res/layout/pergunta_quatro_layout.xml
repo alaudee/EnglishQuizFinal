@@ -22,7 +22,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/questEN04"
         android:textColor="#000"
-        android:textSize="30dp" android:paddingLeft="20dp"/>
+        android:textSize="20dp" android:paddingLeft="20dp"/>
 
     <Button
         android:id="@+id/btnOp1"
